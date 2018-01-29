@@ -237,3 +237,80 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 980px) {
+    .container {
+      padding: 15px;
+      max-width: 768px;
+    }
+  
+    #main-container {
+      padding-top: 120px;
+    }  
+
+    .main section {
+      max-width: 420px;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    
+    .main section, .sidebar {
+      max-width: 100%;
+    }
+
+    #main-container {
+      overflow: 100%;
+    }
+
+    .sidebar {
+      margin-bottom: 40px;
+    }
+
+    .work {
+      width: 45%;
+      margin-bottom: 10px;
+    }
+
+    .work:nth-child(even) {
+      margin-right: 0;
+    }
+
+    .work:nth-child(odd) {
+      float: right;
+    }
+
+    .auth-image {
+      width: 50%
+    }
+
+  }
+
+  @media only screen and (max-width: 640px) {
+    #masthead {
+      position: static;
+      margin-bottom: 20px;
+    }
+  
+    header.container {
+      padding: 0px;
+    }  
+
+    #main-container {
+      padding-top: 0px;
+    }
+
+    #logo, .work, .auth-image {
+      width: 100%;
+    }
+
+    #logo {
+      width: 100%;
+    }
+
+    
+  }
+
+
+
+
